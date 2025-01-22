@@ -1,0 +1,16 @@
+.header {
+    background-color: #f7f7f7;
+}
+
+.destination-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.destination-card {
+    width: 350px;
+    height: 400px;
+    border: 2px solid red;
+}
