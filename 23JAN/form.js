@@ -1,9 +1,4 @@
-// querySelector
-// attributeSelector: css
-
 const handleSubmit = (e) => {
-    // default behavior of the form is to submit the form and go to action page
-    // prevent this behavior
     e.preventDefault();
     console.log(e);
 
@@ -13,7 +8,6 @@ const handleSubmit = (e) => {
     if (selectedValue === "NA") {
         alert("Please select your PROFESSION");
     } else {
-        // success
         window.open("https://www.programmingpathshala.com");
     }
 };
@@ -49,14 +43,6 @@ const handleSelectProfession = (e) => {
         }
     }
 };
-
-// const handleKeyDown = (e) => {
-//     console.log("DOWN:", e.target.value);
-// };
-
-// const handleKeyUp = (e) => {
-//     console.log("UP:", e.target.value);
-// };
 
 const handleNameChange = (e) => {
     const nameValue = e.target.value;

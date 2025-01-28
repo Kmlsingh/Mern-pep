@@ -1,22 +1,22 @@
-let city = "Delhi"; 
-console.log(city); 
+// let city = "Delhi"; 
+// console.log(city); 
 
-let country = "India"; 
-console.log(country); 
+// let country = "India"; 
+// console.log(country); 
 
 // CONST
 // It cannot be re-declared
 // It is block scoped
 // It cannot be re-assigned
 
-const city = "Delhi"; 
-console.log(city);
+// const city = "Delhi"; 
+// console.log(city);
 
 // const cannot be re-assigned
 // city = "Mumbai"; //  error
 
 // Data types
-let city = "delhi";
+// let city = "delhi";
 let pinCode = 441122;
 let isUserDefined = false;
 let data = {}; // Object
@@ -31,7 +31,7 @@ console.log(address); // Delhi, India
 const ans1 = 10 + 30;
 console.log(ans1); 
 
-const ans2 = 10 + "Hello";
+// const ans2 = 10 + "Hello";
 console.log(ans2); 
 
 const ans3 = "Hello" + 10;
